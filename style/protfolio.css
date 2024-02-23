@@ -1,0 +1,56 @@
+
+/*Common Shared style*/
+body{
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    
+}
+
+.primary-color{
+    color:#FD6E0A;
+    
+}
+
+.primary-btn{
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    font-family: "Kode Mono", monospace;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 18px 35px;
+    color:#FFFFFF;
+    border: 0;
+
+
+}
+
+/*Nav Related style*/
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-title{
+    color:#181818;
+    font-size: 45px;
+    font-weight: 800;
+    
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color:#474747;
+
+}
